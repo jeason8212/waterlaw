@@ -1,0 +1,8 @@
+# Byte-exact archival: never let Git rewrite line endings.
+# The shipped .csv/.py/.md files are consumed by exact-path globs and their
+# content is compared against frozen md5 baselines, so a CRLF conversion on
+# some other machine would change the bytes and break the rebuild check.
+* -text
+
+# Binary artifacts, stated explicitly for clarity.
+*.db binary

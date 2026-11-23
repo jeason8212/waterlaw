@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this corpus, query set or pipeline, please cite it as below."
+type: software
+title: "A Water Law Knowledge Graph for As-Of Legal Retrieval: Water Resources Regulation Across China's 2026 Environmental Codification"
+abstract: >-
+  Code and data release for a norm-proposition knowledge graph over Chinese water law,
+  with an as-of retrieval pipeline and a doubly annotated query set. Six instruments are
+  covered (the Ecological Environment Code in force 2026-08-15, the Yangtze River Protection
+  Law, the Yellow River Protection Law, the Water Law, the Water Pollution Prevention and
+  Control Law as repealed on 2026-08-14, and the Ecological Protection Compensation
+  Regulation), holding 2847 provisions and 4161 norm propositions. The query set holds 60
+  queries annotated by two annotators at two dates, together with the full adjudication
+  record. The pipeline is deterministic, so a re-run reproduces the shipped numbers to the
+  last digit.
+authors:
+  - family-names: Liu
+    given-names: Jing
+    affiliation: "North China University of Water Resources and Electric Power"
+    email: liujing@ncwu.edu.cn
+  - family-names: Li
+    given-names: Aolin
+    affiliation: "North China University of Water Resources and Electric Power"
+  - family-names: Miao
+    given-names: Xiaozhe
+    affiliation: "Sinohydro Bureau 11 Co., Ltd."
+  - family-names: Zhu
+    given-names: Qiliang
+    affiliation: "North China University of Water Resources and Electric Power"
+version: 1.0.0
+date-released: 2026-11-23
+license: MIT
+repository-code: "https://github.com/jeason8212/waterlaw"
+keywords:
+  - water law
+  - knowledge graph
+  - legal retrieval
+  - as-of retrieval
+  - norm proposition
+  - temporal validity
+  - Ecological Environment Code
+  - China

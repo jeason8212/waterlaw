@@ -1,0 +1,51 @@
+﻿term_id,term_cn,term_en,aliases,category,definition,entity_type,source_hint
+T-001,流域,watershed／river basin,水系、流域单元,空间单元,由分水线所包围的河流或湖泊的集水区域；流域是协同治理的基本空间单元,Watershed,水法；长江保护法
+T-002,干流与支流,mainstream and tributary,干支流,空间单元,流域内水系的主干与汇入河流；干支流统筹是协同治理的空间要求,Watershed,长江保护法；黄河保护法
+T-003,跨省界断面,trans-province boundary section,省界断面、跨界断面,空间单元,位于两个省级行政区交界处的水质或水量监测断面；是横向补偿与责任划分的技术基准,WaterBody,重点流域水生态环境保护规划
+T-004,水功能区,water function zone,一级水功能区、二级水功能区,空间单元,依据水资源开发利用与保护目标划定的水域功能分区,WaterBody,水功能区划分标准；水功能区监督管理办法
+T-005,饮用水水源保护区,drinking water source protection area,一级保护区、二级保护区、准保护区,空间单元,为保护饮用水水源水质而依法划定的特别管制区域,WaterBody,水法；生态环境法典
+T-006,岸线,shoreline,岸线保护、岸线利用,空间单元,河流湖泊管理范围边缘的带状空间；岸线利用项目是协同管控的高发事项,WaterBody,长江保护法；河道管理条例
+T-007,蓄滞洪区,flood storage and detention area,蓄洪区、滞洪区,空间单元,用于临时蓄滞洪水的低洼区域,WaterBody,防洪法；蓄滞洪区运用补偿暂行办法
+T-008,取水许可,water abstraction permit,取水许可制度,制度机制,依法取得取水权的行政许可制度；取水权配置的基础制度,Institution,水法第7条；取水许可和水资源费征收管理条例
+T-009,水资源有偿使用,paid use of water resources,水资源费,制度机制,使用水资源应当缴纳费用的制度,Institution,水法第7条
+T-010,水资源刚性约束,rigid constraint on water resources,以水定城、以水定地、以水定人、以水定产,制度机制,以水资源承载能力为硬约束确定发展规模与布局的制度,Institution,生态环境法典第41条
+T-011,水量分配,water quantity allocation,水量分配方案、分水方案,制度机制,将流域可用水量在行政区间进行配置的制度,Institution,水量分配暂行办法；黄河水量调度条例
+T-012,生态流量,ecological flow,生态水量、下泄流量、最小下泄流量,技术指标／制度机制,维持河流生态系统基本结构与功能所需的水量与过程,Institution,关于做好河湖生态流量确定和保障工作的指导意见
+T-013,排污许可,pollutant discharge permit,排污许可证,制度机制,依法取得排污资格的行政许可制度,Institution,生态环境法典（排污许可管理章）
+T-014,入河排污口,river pollutant discharge outlet,排污口、入河排污口设置,空间单元／制度机制,向河流湖泊排放污染物的设施与口门；设置需审批,Institution,入河排污口监督管理办法
+T-015,纳污能力,assimilative capacity of water body,水环境容量,技术指标,在给定水质目标下水体可容纳的污染物最大量,Institution,水域纳污能力计算规程
+T-016,河湖长制,river and lake chief system,河长制、湖长制,制度机制,由地方党政领导担任河湖长负责河湖管理保护的制度,Institution,生态环境法典第19条；关于全面推行河长制的意见
+T-017,流域协调机制,basin coordination mechanism,流域统筹协调机制,协同机制,在流域层面统筹各部门与各行政区行为的制度安排,Institution,长江保护法；黄河保护法
+T-018,联合保护协调机制,joint protection coordination mechanism,跨行政区域联合保护协调机制,协同机制,跨行政区域的重点区域与流域实行统一规划、统一标准、统一监测、统一保护措施的机制,Institution,生态环境法典第21条
+T-019,联席会议,joint conference,省际联席会议、部门联席会议,协同机制,由相关主体定期会商以协调立场与行动的软性机制,Institution,赤水河三省共同决定
+T-020,联合执法,joint enforcement,联合执法检查、交叉执法,协同机制,两个以上行政机关共同实施的执法活动,Institution,赤水河三省共同决定；长江保护法
+T-021,统一监测,unified monitoring,监测网络统一、联合监测,协同机制,流域内按统一断面、统一频次、统一方法开展监测,CoordDimension,生态环境法典第21条；HJ 91.2-2022
+T-022,生态保护补偿,ecological protection compensation,生态补偿,制度机制,通过财政纵向补偿、地区间横向补偿、市场机制补偿对生态保护者予以补偿的制度,Institution,生态保护补偿条例第2条
+T-023,地区间横向补偿,horizontal compensation,横向生态保护补偿,协同机制,生态受益地区与生态保护地区政府间通过协商建立的补偿机制,Institution,生态保护补偿条例
+T-024,财政纵向补偿,vertical fiscal compensation,纵向补偿、转移支付,协同机制,上级财政通过转移支付对生态保护地区的补偿,Institution,生态保护补偿条例
+T-025,市场化补偿,market-based compensation,生态产品交易、补偿基金,协同机制,通过市场交易与基金等方式实现的补偿,Institution,生态保护补偿条例
+T-026,水权交易,water rights trading,取水权交易、区域水权交易,制度机制,在总量控制与用途管制前提下有偿转让水权的行为,Institution,水权交易管理暂行办法
+T-027,用水权改革,water use right reform,用水权初始分配,制度机制,明晰区域与取用水户用水权并允许流转的改革,Institution,关于推进用水权改革的指导意见
+T-028,河湖四乱,four disorderly acts in rivers and lakes,乱占、乱采、乱堆、乱建,水事行为,河道湖泊管理范围内违法占用、采砂、堆放、建设的四类行为,Activity,河湖长制相关文件；水利部专项整治
+T-029,非法采砂,illegal sand mining,违法采砂、偷采,水事行为,未取得采砂许可或在禁采区禁采期采砂的行为,Activity,长江河道采砂管理条例；刑法第343条
+T-030,禁渔期与禁渔区,closed season and closed area,禁捕期、禁捕区,制度机制,依法规定禁止捕捞的时段与水域,Institution,渔业法；长江保护法
+T-031,长江十年禁渔,ten-year fishing ban in the Yangtze,长江禁捕,制度机制,长江流域重点水域自2021年起十年禁止生产性捕捞,Institution,长江保护法
+T-032,岸线利用项目,shoreline utilization project,岸线占用、码头建设,水事行为,占用岸线进行建设或经营的项目,Activity,长江保护法；河道管理条例
+T-033,洪水影响评价与水工程建设规划同意书,flood impact assessment and planning consent,规划同意书,制度机制,涉水工程建设前须经水行政主管部门签署规划同意书或通过洪水影响评价,Institution,水法；防洪法
+T-034,环境影响评价,environmental impact assessment,EIA、环评,制度机制,对规划和建设项目可能的环境影响进行分析预测与提出对策的制度,Institution,生态环境法典第一编第五章
+T-035,生态环境分区管控,ecological environment zoning control,三线一单、管控单元,制度机制,以管控单元为载体实施差异化准入的制度,Institution,关于加强生态环境分区管控的意见
+T-036,生态环境损害赔偿,compensation for ecological environment damage,生态损害赔偿、磋商,法律责任,对生态环境损害进行修复与赔偿的责任制度,Sanction,生态环境损害赔偿管理规定；民法典第1234条
+T-037,环境公益诉讼,environmental public interest litigation,民事公益诉讼、行政公益诉讼,法律责任,由检察机关或社会组织对污染破坏行为提起的诉讼,Sanction,民事诉讼法第58条；行政诉讼法第25条
+T-038,按日连续处罚,daily continuous penalty,按日计罚,法律责任,对持续性违法排污按日累计计算罚款的处罚方式,Sanction,生态环境法典（法律责任分则）
+T-039,河湖健康评价,river and lake health assessment,河湖健康评估,技术指标,从水文、水质、生物、社会服务等维度评价河湖状态的指标体系,Institution,河湖健康评价指南（试行）
+T-040,流域管理机构,basin management agency,长江委、黄委、太湖局、流域管理机构,主体角色,国务院水行政主管部门设立的流域派出机构,Institution,水法；太湖流域管理条例
+T-041,水行政主管部门,water administrative department,水利部门、县级以上水行政主管部门,主体角色,负责水资源统一管理与监督的行政机关,Agency,水法
+T-042,生态环境主管部门,ecological environment department,环保部门、生态环境局,主体角色,负责生态环境保护统一监督管理的行政机关,Agency,生态环境法典第17条
+T-043,特别法,lex specialis,特别规定优于一般规定,法律概念,对特定事项作出特别规定的法律；适用上优先于一般法,LegalDocument,立法法
+T-044,效力位阶,hierarchy of legal norms,法律位阶,法律概念,不同层级规范之间的效力高低关系,LegalDocument,立法法
+T-045,法律冲突,norm conflict,规范冲突、法律打架,法律概念,两条以上规范对同一事项作出不一致规定的情形,Norm,立法法
+T-046,协同治理,collaborative governance,流域协同治理、协同共治,协同机制,多个主体通过制度化协调共同治理公共事务的模式,Institution,长江保护法；黄河保护法
+T-047,流域共同立法,joint basin legislation,共同立法、决定加条例,协同机制,多个省级人大以同一文本同步立法保护同一流域的模式,LegalDocument,云贵川赤水河流域共同立法
+T-048,五统一,five unifications,统一规划、统一标准、统一监测、统一责任、统一防治措施,协同机制,赤水河共同决定确立的五项统一要求,CoordDimension,关于加强赤水河流域共同保护的决定
+T-049,水事纠纷,water-related dispute,水事争议,法律概念,地区之间、单位之间、个人之间因水资源开发利用与防治水害发生的纠纷,Norm,水法第六章
+T-050,跨行政区域,trans-administrative-region,跨省、跨市、跨界,法律概念,涉及两个以上同级行政区的空间范围,Region,生态环境法典第21条

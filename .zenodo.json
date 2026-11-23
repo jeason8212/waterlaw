@@ -1,0 +1,39 @@
+{
+  "title": "A Water Law Knowledge Graph for As-Of Legal Retrieval: Water Resources Regulation Across China's 2026 Environmental Codification",
+  "description": "<p>Code and data release for a norm-proposition knowledge graph over Chinese water law, with an as-of retrieval pipeline and a doubly annotated query set. The pipeline is written against the Python 3.10 standard library only.</p><p><strong>Coverage.</strong> Six instruments: the Ecological Environment Code (in force 2026-08-15), the Yangtze River Protection Law, the Yellow River Protection Law, the Water Law, the Water Pollution Prevention and Control Law as repealed on 2026-08-14, and the Ecological Protection Compensation Regulation. The corpus holds 2847 provisions and 4161 norm propositions, of which 1054 are negative-class nodes and 19 are exceptions. The query set holds 60 queries annotated by two annotators at two dates, with the full adjudication record.</p><p><strong>Contents.</strong> corpus/ holds the query batches, both annotators' raw judgements, the adjudication record and the accession manifest for each statutory text. build/ holds extraction, typing, query and evaluation code, together with the frozen database kg.db (seven tables) on which the published numbers were computed. build/out/ holds the evaluation tables and the LLM response cache that replays the model baselines without an API key.</p><p><strong>Reproduction.</strong> Run python build/tools/rebuild_and_verify.py to delete kg.db, rebuild it from the raw texts and compare seven table counts, the edge and modality distributions and the provision MD5 against build/out/repro_baseline.json. Run python build/run_all.py for the pipeline, then python build/baselines/run_baselines.py and python build/baselines/analyze_ablation.py for the baseline matrix and the ablation tables. The pipeline is deterministic, so a re-run reproduces the shipped numbers to the last digit.</p><p><strong>Licensing.</strong> Code is released under the MIT licence. Annotations, query sets and derived data are released under CC BY 4.0. The statutory texts are official texts of the People's Republic of China, obtained from the National Laws and Regulations Database (flk.npc.gov.cn) and ministry portals; corpus/08 records the source, version and retrieval date of each instrument, and the texts are reproduced for research purposes with that attribution.</p><p><strong>Funding.</strong> This research was funded by the Open Research Fund of Changjiang River Scientific Research Institute, Changjiang Water Resources Commission, grant number CKWV2025947/KY.</p>",
+  "creators": [
+    {
+      "name": "Liu, Jing",
+      "affiliation": "North China University of Water Resources and Electric Power"
+    },
+    {
+      "name": "Li, Aolin",
+      "affiliation": "North China University of Water Resources and Electric Power"
+    },
+    {
+      "name": "Miao, Xiaozhe",
+      "affiliation": "Sinohydro Bureau 11 Co., Ltd."
+    },
+    {
+      "name": "Zhu, Qiliang",
+      "affiliation": "North China University of Water Resources and Electric Power"
+    }
+  ],
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "MIT",
+  "upload_type": "software",
+  "language": "eng",
+  "keywords": [
+    "water law",
+    "knowledge graph",
+    "legal retrieval",
+    "as-of retrieval",
+    "norm proposition",
+    "temporal validity",
+    "statutory interpretation",
+    "Ecological Environment Code",
+    "China"
+  ],
+  "notes": "Code: MIT. Annotations, query sets and derived data: CC BY 4.0. Statutory texts: official PRC publications, reproduced for research with attribution recorded in corpus/08."
+}

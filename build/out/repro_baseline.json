@@ -1,0 +1,33 @@
+{
+ "doc": 57,
+ "provision": 2847,
+ "norm": 4161,
+ "entity": 557,
+ "edge": 9779,
+ "issue": 1591,
+ "conduct": 3211,
+ "edge_by_rel": {
+  "CONFERS_POWER_ON": 636,
+  "ESTABLISHES": 195,
+  "GENERAL_OF": 2,
+  "HAS_NORM": 4142,
+  "HAS_PROVISION": 2847,
+  "IMPOSES_DUTY_ON": 1890,
+  "LEX_SPECIALIS": 2,
+  "REFERS_TO": 10,
+  "REPEALED_BY": 10,
+  "REQUIRES_UNIFICATION": 35,
+  "SUPERSEDES": 10
+ },
+ "norm_by_deo": {
+  "advocacy": 225,
+  "declarative": 743,
+  "definition": 65,
+  "n/a": 19,
+  "obligation": 1997,
+  "power": 702,
+  "prohibition": 389,
+  "referral": 21
+ },
+ "provision_md5": "14ad5c304d093f9bab1fc6e971c6a00c"
+}
